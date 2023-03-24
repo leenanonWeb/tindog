@@ -1,0 +1,192 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 { 
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#p{
+    padding: 15px;
+    color: rgb(137, 160, 180);
+}
+
+
+/* Hrading */
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+/* Navigation Bar */
+.navbar-bracd {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#navbar_container {
+    padding: 0 21px 109px 0px;
+}
+.container-fluid {
+    padding: 7% 15%;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+.Download-Button{
+    margin: 10px;
+}
+
+  
+
+/* Title-Image */
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+.Title-Image {
+    width: 18%;
+    transform: rotate(25deg);
+    /*หมุนภาพ*/
+    position: absolute;
+    right: 30%;
+}
+
+
+
+/* Features */
+#features {
+    background-color: #fff;
+    position: relative;
+
+}
+.features-title{
+    font-size: 1.5rem;
+}
+.Features-item {
+     padding: 4.5%;
+    /* padding:50px 12px 50px 12px  ; */
+}
+
+.features-box {
+    color: #ef8172;
+    margin: 1rem;
+}
+
+.features-box:hover {
+    color: #ff4c68;
+}
+
+
+/* Testimonials */
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+
+}
+.testimonials-text{
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    /*  ลดมุม */
+    margin: 20px;
+}
+
+
+
+
+/* press */
+#press {
+    background-color: #ef8172;
+
+}
+
+.logo-Press {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+    padding: 100px;
+}
+
+.price-text{
+     font-size: 3rem;
+     line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+
+}
+
+
+/* Call to Action */
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+
+
+    
+    /* padding: 5% 26% 5%; */
+}
+.cta-heading{
+    
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer */
+
+.social-icon{
+    margin: 20ps      10px;
+    
+}
+
+
+/* ------------------------------------------------------------------------------------ */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+
+    .Title-Image {
+
+        position: static;
+        transform: rotate(0deg);
+
+
+
+    }
+}
+
